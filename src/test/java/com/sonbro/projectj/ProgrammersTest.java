@@ -3,6 +3,7 @@ package com.sonbro.projectj;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.stream.IntStream;
 
 public class ProgrammersTest {
@@ -43,5 +44,23 @@ public class ProgrammersTest {
     public void floatToInt() {
         double flo = 1.42;
         System.out.println((int) flo);
+    }
+
+    @Test
+    public void numCal() {
+        int n = 0;
+        HashMap<Character, Integer> calMap = new HashMap<>();
+        calMap.put('w', 1);
+        calMap.put('s', -1);
+        calMap.put('d', 10);
+        calMap.put('a', -10);
+
+        String control = "wsdawsdassw";
+
+        control.chars().reduce(n, (acc, c) -> acc + )
+        for (char c : control.toCharArray()) {
+            Integer integer = calMap.get(c);
+            n += integer;
+        }
     }
 }
