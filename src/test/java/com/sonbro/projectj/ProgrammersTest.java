@@ -32,4 +32,10 @@ public class ProgrammersTest {
         }
         return answer;
     }
+
+    @Test
+    public void lower() {
+        String str = "aBcDeFg";
+        System.out.println(str.toLowerCase());
+    }
 }
