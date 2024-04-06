@@ -57,7 +57,6 @@ public class ProgrammersTest {
 
         String control = "wsdawsdassw";
 
-        control.chars().reduce(n, (acc, c) -> acc + )
         for (char c : control.toCharArray()) {
             Integer integer = calMap.get(c);
             n += integer;
