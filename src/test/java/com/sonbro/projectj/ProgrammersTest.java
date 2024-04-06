@@ -38,4 +38,10 @@ public class ProgrammersTest {
         String str = "aBcDeFg";
         System.out.println(str.toLowerCase());
     }
+
+    @Test
+    public void floatToInt() {
+        double flo = 1.42;
+        System.out.println((int) flo);
+    }
 }
