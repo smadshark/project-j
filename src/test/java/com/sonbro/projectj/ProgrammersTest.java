@@ -2,6 +2,7 @@ package com.sonbro.projectj;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class ProgrammersTest {
@@ -17,5 +18,18 @@ public class ProgrammersTest {
             return 1;
         }
         return 0;
+    }
+
+    @Test
+    public void countDownTest() {
+        System.out.println(Arrays.toString(countDown(10, 3)));
+    }
+
+    public int[] countDown(int start, int endNum) {
+        int[] answer = new int[start - endNum + 1];
+        for (int i = 0; i < answer.length; i++) {
+            answer[i] = start--;
+        }
+        return answer;
     }
 }
