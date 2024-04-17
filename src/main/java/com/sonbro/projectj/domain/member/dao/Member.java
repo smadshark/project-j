@@ -1,4 +1,4 @@
-package com.sonbro.projectj.dao;
+package com.sonbro.projectj.domain.member.dao;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

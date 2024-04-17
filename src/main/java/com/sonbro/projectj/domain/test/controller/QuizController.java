@@ -1,4 +1,4 @@
-package com.sonbro.projectj.controller;
+package com.sonbro.projectj.domain.test.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

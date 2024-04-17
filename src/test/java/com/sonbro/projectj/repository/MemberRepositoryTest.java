@@ -1,6 +1,7 @@
 package com.sonbro.projectj.repository;
 
-import com.sonbro.projectj.dao.Member;
+import com.sonbro.projectj.domain.member.dao.Member;
+import com.sonbro.projectj.domain.member.repository.MemberRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;

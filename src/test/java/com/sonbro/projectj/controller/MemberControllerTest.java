@@ -1,7 +1,7 @@
 package com.sonbro.projectj.controller;
 
-import com.sonbro.projectj.dao.Member;
-import com.sonbro.projectj.repository.MemberRepository;
+import com.sonbro.projectj.domain.member.dao.Member;
+import com.sonbro.projectj.domain.member.repository.MemberRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

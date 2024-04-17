@@ -1,8 +1,7 @@
-package com.sonbro.projectj.controller;
+package com.sonbro.projectj.domain.member.controller;
 
-import com.sonbro.projectj.dao.Member;
-import com.sonbro.projectj.service.MemberService;
-import lombok.RequiredArgsConstructor;
+import com.sonbro.projectj.domain.member.dao.Member;
+import com.sonbro.projectj.domain.member.service.MemberService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

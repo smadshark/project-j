@@ -1,7 +1,7 @@
-package com.sonbro.projectj.service;
+package com.sonbro.projectj.domain.member.service;
 
-import com.sonbro.projectj.dao.Member;
-import com.sonbro.projectj.repository.MemberRepository;
+import com.sonbro.projectj.domain.member.dao.Member;
+import com.sonbro.projectj.domain.member.repository.MemberRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
